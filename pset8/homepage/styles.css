@@ -1,0 +1,90 @@
+
+.header{
+    background-image: url("https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/what-is-coding.png");
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 0;
+    font-size: 75px;
+
+}
+
+.normalText{
+    background-color: #0b4587;
+    color: white;
+    text-align: left;
+    padding: 15px;
+}
+
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    font-weight: bold;
+    color: white;
+    background-color: #0077ff;
+}
+
+.black{
+    background-color: #000000;
+    color: white;
+}
+
+.white{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.secondaryHeading{
+    text-align: center;
+    font-size: 50px;
+    padding: 10rem 10rem;
+}
+
+.img {
+    width:  100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.normalText {
+    font-size: 20px;
+    padding: 9rem 9rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.formula1 {
+    padding: 7rem 7rem;
+    background-color: #008080;
+}
+
+.titlepage {
+    padding: 15rem 15rem;
+}
+
+.programming{
+    padding: 7rem 7rem;
+    background-color: #7689de;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.notOverview{
+    padding: 3rem 3rem;
+    text-align: center;
+    background-color: #87CEEB;
+    color: black;
+}
+

@@ -1,0 +1,153 @@
+{
+  "extensions": [
+    "/opt/cs50/extensions/cs50-0.0.1.vsix",
+    "/opt/cs50/extensions/ddb50-0.0.1.vsix",
+    "/opt/cs50/extensions/phpliteadmin-0.0.1.vsix",
+    "ms-python.python",
+    "ms-vscode.cpptools",
+    "ms-vscode.hexeditor",
+    "ms-vsliveshare.vsliveshare-pack",
+    "tomoki1207.pdf",
+    "vsls-contrib.gitdoc"
+  ],
+  "image": "ghcr.io/cs50/codespace:a305c060012d68fbb74bb86abf06a4bceadeef65",
+  "postCreateCommand": "/opt/cs50/bin/postCreateCommand",
+  "settings": {
+    "C_Cpp.autocomplete": "Disabled",
+    "C_Cpp.codeFolding": "Disabled",
+    "C_Cpp.dimInactiveRegions": false,
+    "C_Cpp.enhancedColorization": "Enabled",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "breadcrumbs.enabled": false,
+    "editor.autoClosingQuotes": "never",
+    "editor.colorDecorators": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.folding": false,
+    "editor.foldingHighlight": false,
+    "editor.hover.enabled": false,
+    "editor.lightbulb.enabled": false,
+    "editor.matchBrackets": "near",
+    "editor.minimap.enabled": false,
+    "editor.occurrencesHighlight": false,
+    "editor.parameterHints.enabled": false,
+    "editor.quickSuggestions": false,
+    "editor.renderIndentGuides": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.selectionHighlight": false,
+    "editor.semanticTokenColorCustomizations": {
+      "[Default Dark+]": {
+        "enabled": true,
+        "rules": {
+          "type": "#569CD6"
+        }
+      },
+      "[Default Light+]": {
+        "enabled": true,
+        "rules": {
+          "type": "#0000FF"
+        }
+      }
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+      "**/.*": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/.git/subtree-cache/**": true,
+      "**/node_modules/*/**": true
+    },
+    "git.autofetch": true,
+    "git.decorations.enabled": false,
+    "gitdoc.autoPull": "off",
+    "gitdoc.commitMessageFormat": "ddd, MMM D, YYYY, h:mm A Z",
+    "gitdoc.commitValidationLevel": "none",
+    "gitdoc.enabled": true,
+    "gitdoc.pullOnOpen": false,
+    "html.suggest.html5": false,
+    "javascript.suggest.enabled": false,
+    "javascript.validate.enable": false,
+    "problems.decorations.enabled": false,
+    "remote.otherPortsAttributes": {
+      "onAutoForward": "silent"
+    },
+    "scm.countBadge": "off",
+    "terminal.integrated.commandsToSkipShell": [
+      "workbench.action.toggleSidebarVisibility"
+    ],
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+      "JavaScript Debug Terminal": null,
+      "bash": {
+        "args": [
+          "-l"
+        ],
+        "path": "bash"
+      }
+    },
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.integrated.tabs.description": "${task}${separator}${local}",
+    "terminal.integrated.tabs.showActiveTerminal": "never",
+    "window.autoDetectColorScheme": true,
+    "workbench.colorCustomizations": {
+      "editor.lineHighlightBorder": "#0000",
+      "editorError.foreground": "#0000",
+      "editorGutter.addedBackground": "#0000",
+      "editorGutter.deletedBackground": "#0000",
+      "editorGutter.modifiedBackground": "#0000",
+      "editorWarning.foreground": "#0000"
+    },
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.enableExperiments": false,
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "workbench.preferredLightColorTheme": "Default Light+",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.welcomePage.walkthroughs.openOnInstall": false
+  },
+  "runArgs": [
+    "--label",
+    "ContainerVersion=12",
+    "--hostname",
+    "codespaces-c70c11",
+    "--add-host",
+    "codespaces-c70c11:127.0.0.1",
+    "--cap-add",
+    "sys_nice",
+    "--network",
+    "host"
+  ],
+  "containerEnv": {
+    "CODESPACES": "true",
+    "RepositoryName": "78754219",
+    "ContainerVersion": "12"
+  },
+  "remoteEnv": {
+    "CLOUDENV_ENVIRONMENT_ID": "60e31ed7-7d52-426e-98cf-34f7b3f6f10b",
+    "CODESPACE_NAME": "cplusplushopeful-code50-78754219-5g4xgr446c49rq",
+    "GIT_COMMITTER_NAME": "GitHub",
+    "GIT_COMMITTER_EMAIL": "noreply@github.com",
+    "GITHUB_SERVER_URL": "https://github.com",
+    "GITHUB_API_URL": "https://api.github.com",
+    "GITHUB_GRAPHQL_URL": "https://api.github.com/graphql",
+    "GITHUB_REPOSITORY": "code50/78754219",
+    "INTERNAL_VSCS_TARGET_URL": "https://eastus.online.visualstudio.com",
+    "GITHUB_CODESPACE_TOKEN": "ASY3DK2QA7I7Q5CY6BLIRBDCT456HANCNFSM4ABK72SA",
+    "GITHUB_TOKEN": "ghu_6aBDnXKRVtQgs2408gdwiPidDAvKxU2TgOot",
+    "GITHUB_USER": "cplusplushopeful"
+  },
+  "mounts": [
+    "source=/root/.codespaces/shared,target=/workspaces/.codespaces/shared,type=bind",
+    "source=/var/lib/docker/codespacemount/.persistedshare,target=/workspaces/.codespaces/.persistedshare,type=bind",
+    "source=/.codespaces/agent/mount,target=/.codespaces/bin,type=bind",
+    "source=/mnt/containerTmp,target=/tmp,type=bind"
+  ],
+  "workspaceMount": "type=bind,src=/var/lib/docker/codespacemount/workspace,dst=/workspaces",
+  "workspaceFolder": "/workspaces/78754219"
+}

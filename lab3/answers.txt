@@ -1,0 +1,15 @@
+sort1 uses: Bubble sort
+
+How do you know?: It takes the shortest amount of time to process the sorted 50000 set, but the longest to sort the reversed and random 50000
+sets. This exact pattern was displayed by the bubble sort algorithm during the lecture (lower bound of n and upper bound of n squared steps)
+
+sort2 uses: Merge sort
+
+How do you know?: it was consistently fast at sorting the reversed, sorted, and random sets (much faster than the other 2 sorting algorithms),
+and since merge sort is usually the quickest algorithm with an upper and lower bound of n log n steps with no significant differences in time spent by the algorithm regardless of how the data was sorted, 
+I put it as my answer
+
+sort3 uses: selection sort
+
+How do you know?: It was consistently quick, but not as quick as sort2's algorithm. And since the selection sort algoritm has a
+consistent upper and lower bound of n squared, I identified this sort algorithm as the selection sort one.

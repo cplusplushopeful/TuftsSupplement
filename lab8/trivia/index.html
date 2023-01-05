@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What was the year of the Battle of Midway?</h3>
+                <button id="option1">1942</button>
+                <button id="option2">2021</button>
+                <button id="option3">1940</button>
+                <button id="option4">1941</button>
+                <p id ="p"></p>
+                <script>
+                    document.querySelector('#option1').addEventListener('click', function() {
+                        option1.style.backgroundColor = 'green';
+                        var p = document.getElementById("p");
+                        p.innerText =  "Correct";
+
+                    });
+                    document.querySelector('#option2').addEventListener('click', function() {
+                        option2.style.backgroundColor = 'red';
+                        var p = document.getElementById("p");
+                        p.innerText =  "Incorrect";
+
+                    });
+                    document.querySelector('#option3').addEventListener('click', function() {
+                        option3.style.backgroundColor = 'red';
+                        var p = document.getElementById("p");
+                        p.innerText =  "Incorrect";
+
+                    });
+                    document.querySelector('#option4').addEventListener('click', function() {
+                        option4.style.backgroundColor = 'red';
+                        var p = document.getElementById("p");
+                        p.innerText =  "Incorrect";
+                    });
+
+
+
+
+                </script>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Who will beat Carlos Sainz in 2022?</h3>
+                <form>
+                    <input autocomplete = off autofocus id = "name" placeholder = "Name" type = "text">
+                    <input type = "submit">
+                    <p id = "feedback2">    </p>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function() {
+                            document.querySelector('form').addEventListener("submit", function(e) {
+                                let answer = document.querySelector("#name");
+                                var trueAnswer = "Charles Leclerc";
+                                p = document.getElementById("feedback2");
+                                if(answer.value === trueAnswer){
+                                    p.innerText = "Correct";
+                                    answer.style.backgroundColor = 'green';
+                                }
+                                else{
+                                    p.innerText = "Incorrect";
+                                    answer.style.backgroundColor = 'red';
+                                }
+                                e.preventDefault();
+
+                            });
+                        });
+                    </script>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

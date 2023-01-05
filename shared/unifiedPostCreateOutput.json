@@ -1,0 +1,9 @@
+{
+  "steps": [
+    {
+      "name": "Running postCreateCommand...",
+      "status": "succeeded",
+      "stepDetail": "/opt/cs50/bin/postCreateCommand"
+    }
+  ]
+}

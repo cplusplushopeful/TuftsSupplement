@@ -1,0 +1,5 @@
+👋 Welcome to Codespaces! You are on a custom image defined in your devcontainer.json file.
+
+🔍 To explore VS Code to its fullest, search using the Command Palette (Cmd/Ctrl + Shift + P)
+
+📝 Edit away, then run your build command to see your code running in the browser.

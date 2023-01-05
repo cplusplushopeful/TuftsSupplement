@@ -1,0 +1,22 @@
+{
+  "steps": [
+    {
+      "name": "Finishing up...",
+      "status": "succeeded",
+      "description": null,
+      "stepDetail": null
+    },
+    {
+      "name": "Running postCreateCommand...",
+      "status": "succeeded",
+      "description": null,
+      "stepDetail": "/opt/cs50/bin/postCreateCommand"
+    },
+    {
+      "name": "Done",
+      "status": "succeeded",
+      "description": null,
+      "stepDetail": null
+    }
+  ]
+}

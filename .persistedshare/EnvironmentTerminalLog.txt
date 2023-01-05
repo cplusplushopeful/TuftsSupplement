@@ -1,0 +1,7 @@
+[[1m[38;2;99;143;79m5 ms[39m[22m] @microsoft/vscode-dev-containers-cli 0.62.0.
+[[1m[38;2;99;143;79m196 ms[39m[22m] @microsoft/vscode-dev-containers-cli 0.62.0.
+[[1m[38;2;99;143;79m911 ms[39m[22m] @microsoft/vscode-dev-containers-cli 0.62.0.
+[1mRunning the postCreateCommand from devcontainer.json...[0m
+
+cp: cannot stat '/home/ubuntu/.ssh/authorized_keys': No such file or directory
+
